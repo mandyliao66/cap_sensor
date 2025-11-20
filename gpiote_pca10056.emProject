@@ -11,7 +11,7 @@
     arm_target_device_name="nRF52840_xxAA"
     arm_target_interface_type="SWD"
     c_preprocessor_definitions="DEBUG; DEBUG_NRF"
-    c_user_include_directories="C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\examples\\peripheral\\gpiote\\pca10056\\blank\\ses\\RTT;C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\modules\\nrfx\\drivers;C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\examples\\peripheral\\gpiote\\pca10056\\blank\\ses\\Config"
+    c_user_include_directories="C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\examples\\peripheral\\gpiote\\pca10056\\blank\\ses\\RTT;C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\modules\\nrfx\\drivers;C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\examples\\peripheral\\gpiote\\pca10056\\blank\\ses\\Config;C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\components\\libraries;C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\components\\softdevice;C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\components\\libraries\\timer;C:\\Users\\mandy\\Desktop\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\components\\libraries\\delay"
     debug_target_connection="J-Link"
     gcc_optimization_level="None"
     linker_section_placements_segments="FLASH1 RX 0x00000000 0x00100000;FLASH2 RX 0x10001000 0x00001000;RAM1 RWX 0x20000000 0x00040000;" />
@@ -85,6 +85,7 @@
     <folder Name="nRF_Drivers">
       <file file_name="../../../../../../integration/nrfx/legacy/nrf_drv_ppi.c" />
       <file file_name="../../../../../../modules/nrfx/soc/nrfx_atomic.c" />
+      <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_clock.c" />
       <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_gpiote.c" />
       <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_ppi.c" />
       <file file_name="../../../../../../modules/nrfx/drivers/src/nrfx_saadc.c" />

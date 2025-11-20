@@ -1,6 +1,5 @@
-Output/Debug/Obj/gpiote_pca10056/main.o: \
- C:\Users\mandy\Desktop\nRF5_SDK_17.1.0_ddde560\nRF5_SDK_17.1.0_ddde560\examples\peripheral\gpiote\main.c \
- ../../../../../../modules/nrfx/hal/nrf_gpio.h \
+Output/Debug/Obj/gpiote_pca10056/nrfx_clock.o: \
+ C:\Users\mandy\Desktop\nRF5_SDK_17.1.0_ddde560\nRF5_SDK_17.1.0_ddde560\modules\nrfx\drivers\src\nrfx_clock.c \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
@@ -46,11 +45,18 @@ Output/Debug/Obj/gpiote_pca10056/main.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/libraries/util/sdk_resources.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- ../../../../../../modules/nrfx/drivers/include/nrfx_saadc.h \
- ../../../../../../modules/nrfx/hal/nrf_saadc.h \
- C:/Users/mandy/Desktop/nRF5_SDK_17.1.0_ddde560/nRF5_SDK_17.1.0_ddde560/examples/peripheral/gpiote/pca10056/blank/ses/RTT/SEGGER_RTT.h \
- C:/Users/mandy/Desktop/nRF5_SDK_17.1.0_ddde560/nRF5_SDK_17.1.0_ddde560/examples/peripheral/gpiote/pca10056/blank/ses/Config/SEGGER_RTT_Conf.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/stdlib.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/stdarg.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/math.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/__SEGGER_RTL_FP.h
+ ../../../../../../modules/nrfx/drivers/include/nrfx_clock.h \
+ ../../../../../../modules/nrfx/hal/nrf_clock.h \
+ ../../../../../../modules/nrfx/drivers/include/nrfx_power_clock.h \
+ ../../../../../../integration/nrfx/nrfx_log.h \
+ ../../../../../../components/libraries/log/nrf_log.h \
+ ../../../../../../components/libraries/util/sdk_common.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ 8.24/include/string.h \
+ ../../../../../../components/libraries/util/sdk_os.h \
+ ../../../../../../components/libraries/util/app_util.h \
+ ../../../../../../components/libraries/util/sdk_macros.h \
+ ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../../../../components/libraries/log/src/nrf_log_internal.h \
+ ../../../../../../components/libraries/log/nrf_log_instance.h \
+ ../../../../../../components/libraries/log/nrf_log_types.h \
+ ../../../../../../components/libraries/log/nrf_log_types.h
