@@ -42,21 +42,21 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="10" useTextEdit="1" path="../../../main.c" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="31" y="79" useTextEdit="1" path="../../../main.c" left="0" selected="1" top="58" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../../../../../../components/boards/boards.c" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="50" y="68" useTextEdit="1" path="../../../../../../modules/nrfx/drivers/include/nrfx_saadc.h" left="0" top="49" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="50" y="1155" useTextEdit="1" path="../config/sdk_config.h" left="0" top="1139" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="192" useTextEdit="1" path="../../../../../../modules/nrfx/drivers/include/nrfx_gpiote.h" left="0" top="173" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="151" useTextEdit="1" path="../config/sdk_config.h" left="0" top="151" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="14" y="44" useTextEdit="1" path="../../../../../../modules/nrfx/drivers/src/nrfx_ppi.c" left="0" top="44" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="192" useTextEdit="1" path="../../../../../../modules/nrfx/drivers/include/nrfx_gpiote.h" left="0" top="170" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="29" y="81" useTextEdit="1" path="../../../../../../modules/nrfx/drivers/include/nrfx_ppi.h" left="0" top="68" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="38" y="71" useTextEdit="1" path="../../../../../../modules/nrfx/drivers/include/nrfx_timer.h" left="0" top="62" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="1054" useTextEdit="1" path="../../../../../../integration/nrfx/legacy/apply_old_config.h" left="0" top="1035" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="8" y="97" useTextEdit="1" path="../../../../../../external/segger_rtt/SEGGER_RTT_Conf.h" left="0" top="75" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="9" y="60" useTextEdit="1" path="RTT/SEGGER_RTT.h" left="0" top="42" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Config/SEGGER_RTT_Conf.h" left="0" top="75" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="9" y="1228" useTextEdit="1" path="RTT/SEGGER_RTT.c" left="0" top="1210" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="41" y="66" useTextEdit="1" path="../../../../../../modules/nrfx/drivers/include/nrfx_power_clock.h" left="0" top="52" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="68" y="190" useTextEdit="1" path="../../../../../../modules/nrfx/drivers/src/nrfx_clock.c" left="0" top="178" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="1054" useTextEdit="1" path="../../../../../../integration/nrfx/legacy/apply_old_config.h" left="0" top="1035" codecName="Default"/>
  </Files>
  <EMStudioWindow activeProject="gpiote_pca10056" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
