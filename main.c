@@ -50,19 +50,19 @@ void measure_capacitance(void)
     nrf_gpio_pin_set(PIN_CHARGE);
 
     // let the node charge
-    nrf_delay_us(50);
+    nrf_delay_us(10);
 
     // 3) Read ADC
     adc = read_adc();
 
     // 4) Discharge
     nrf_gpio_pin_clear(PIN_CHARGE);
-    nrf_delay_us(20);
+   // nrf_delay_us(10);
 
     // 5) Force SENSOR pin low (hard discharge)
     nrf_gpio_cfg_output(PIN_SENSOR);
     nrf_gpio_pin_clear(PIN_SENSOR);
-    nrf_delay_us(20);
+    //nrf_delay_us(10);
 
     // 6) Compute capacitance using your formula
     if (adc < 1023)
@@ -73,23 +73,28 @@ void measure_capacitance(void)
     // 7) Print result (RTT)
     //SEGGER_RTT_printf(0, "%d,%d\n", adc, (int)capacitance_pf);
 // NEW — force output to channel 0 with no prefix:
-SEGGER_RTT_WriteString(0, "");
-
+//SEGGER_RTT_WriteString(0, "");
+/*
 char buf[32];
 snprintf(buf, sizeof(buf), "%d,%d\n", adc, (int)capacitance_pf);
 SEGGER_RTT_WriteString(0, buf);
+*/
+char buf[32];
+snprintf(buf, sizeof(buf),"%d\n", (int)capacitance_pf);
+SEGGER_RTT_WriteString(0, buf);
+
 }
 
 int main(void)
 {
     SEGGER_RTT_Init();
-    SEGGER_RTT_WriteString(0, "Capacitive Sensor Test\n");
+    //SEGGER_RTT_WriteString(0, "Capacitive Sensor Test\n");
 
     saadc_init();
 
     while (1)
     {
         measure_capacitance();
-        nrf_delay_ms(100);
+        nrf_delay_ms(50);
     }
 }
