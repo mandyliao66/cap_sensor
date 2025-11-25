@@ -66,7 +66,7 @@ void measure_capacitance(void)
 
     // 6) Compute capacitance using your formula
     if (adc < 1023)
-        capacitance_pf = (adc * 400.0f) / (1023.0f - adc);
+        capacitance_pf = (adc * 100.0f) / (1023.0f - adc);
     else
         capacitance_pf = 0;
 
